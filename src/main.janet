@@ -2,4 +2,4 @@
 
 (cmd/main (cmd/fn
             [name :string]
-            (print name))
+            (print name)))
