@@ -1,4 +1,5 @@
-(import spork/argparse)
+(import cmd)
 
-(defn main [& args]
-  (print "test-janet-cli"))
+(cmd/main (cmd/fn
+ [name :string]
+ (print name)))
