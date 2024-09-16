@@ -14,7 +14,7 @@
 
         janet-cli = janetBuilder.buildJanetPackage {
           pname = "janet-cli";
-          version = "0.1.0";
+          version = "dev";
           src = lib.cleanSource ./.;
           depsFile = ./deps.nix;
         };
